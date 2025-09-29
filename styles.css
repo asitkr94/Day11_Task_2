@@ -1,0 +1,84 @@
+@font-face {
+    font-family: RedHat;
+    src: url(./RedHatDisplay-Regular.woff2);
+}
+@font-face {
+    font-family: a1;
+    src: url(ArcadeGamer-Regular.woff2);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+   height: 100vh;
+   width: 100vw;
+   background-image: url(./img.jpg);
+   background-size: cover;
+   background-position: center;
+}
+
+#box{
+    text-align: left;
+   padding-left: 300px;
+   padding-top: 200px;
+   line-height: 1.2;
+}
+
+#Aim-high{
+    font-family: RedHat;
+    font-size: 108px;
+    font-weight: bolder;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#play{
+    font-family: a1;
+    font-size: 116px;
+    font-weight: bolder;
+    color: #ff914d;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+#hard{
+    font-family: RedHat;
+    font-size: 108px;
+    font-weight: bolder;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+button  {
+    border: none;
+    outline: none;
+}
+#improve{
+    margin-top: 20px;
+    font-family: RedHat;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: normal;
+    color: white;
+    background-color: transparent;
+    border: #ff914d 1.5px solid;
+    padding: 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+#health{
+    font-family: RedHat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    color: #ffffff;
+}
+
+#improve:hover {
+    background-color: #ff914d;
+    color: white;
+    transform: scale(1.05);
+}
