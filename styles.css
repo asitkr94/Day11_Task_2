@@ -113,30 +113,23 @@ body {
     
    }
 
-   .navbar ul {
-    
+ .navbar ul {
   list-style: none;
   padding: 0;
   margin: 0;
-   display: flex;
-  list-style: none;
-  padding-top: 10px;
-  /* justify-content: center;
-  align-items: center; */
-  
-   
+  display: flex;
+  align-items: center;
+  gap: 20px; /* adjust spacing between menu items */
+  padding-left: 350px;
 }
 .navbar ul li a {
-   font-family: monospace;
-    font-size: 16px;
-    color: #ffffff;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    text-decoration: none;
-    transition: color 0.3s;  
-    padding-left: 200px;
-    
-    
-    
+  font-family: monospace;
+  font-size: 16px;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+  transition: color 0.3s;
+  padding: 5px 10px; /* small padding for clickable area */
 }
 
 .navbar .logo a { 
